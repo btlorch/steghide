@@ -18,6 +18,7 @@
  *
  */
 
+#include <climits>
 #include <ctime>
 #include <list>
 #include <map>

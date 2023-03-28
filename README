@@ -68,6 +68,12 @@ After unpacking the source distribution, enter the following commands:
 3) make check
 4) make install (as root)
 
+Note: Before running unit tests with "make check" please add tests folder to perl @INC as follows.
+on Linux/Unix systems:
+export PERL5LIB=/path/to/repository/steghide/tests
+On Windows:
+set PERL5LIB=C:\path\to\repository\steghide\tests
+
 For more information see the generic installation instructions in the file
 INSTALL that came with the distribution.
 
